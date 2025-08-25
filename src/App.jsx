@@ -1,6 +1,10 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import HomeProfile from './components/HomeProfile'
+import About from './components/About'
+import Technologies from './components/Technologies'
+import Projects from './components/Projects'
+import Contacts from './components/Contacts'
 
 const App = () => {
   return (
@@ -13,6 +17,10 @@ const App = () => {
       <div className='container mx-auto px-8'>
         <Navbar />
         <HomeProfile />
+        <About />
+        <Technologies />
+        <Projects />
+        <Contacts />
       </div>
       
     </div>
